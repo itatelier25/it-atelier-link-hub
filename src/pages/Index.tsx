@@ -19,7 +19,10 @@ const links: LinkItem[] = [
   {
     en: "Website",
     ru: "Сайт",
-    href: "https://itatelier.world",
+    href: {
+      en: "https://itatelier.world",
+      ru: "https://itatelier.world",
+    },
     icon: <ExternalLink className="w-5 h-5" />,
   },
   {
@@ -34,25 +37,37 @@ const links: LinkItem[] = [
   {
     en: "WhatsApp",
     ru: "WhatsApp",
-    href: "https://wa.me/85566504612",
+    href: {
+      en: "https://wa.me/85566504612",
+      ru: "https://wa.me/85566504612",
+    },
     icon: <MessageCircle className="w-5 h-5" />,
   },
   {
     en: "Instagram",
     ru: "Instagram",
-    href: "https://instagram.com/it_._atelier",
+    href: {
+      en: "https://instagram.com/it_._atelier",
+      ru: "https://instagram.com/it_._atelier",
+    },
     icon: <Instagram className="w-5 h-5" />,
   },
   {
     en: "Facebook",
     ru: "Facebook",
-    href: "https://www.facebook.com/share/1GLXyLxbak/",
+    href: {
+      en: "https://www.facebook.com/share/1GLXyLxbak/",
+      ru: "https://www.facebook.com/share/1GLXyLxbak/",
+    },
     icon: <Facebook className="w-5 h-5" />,
   },
   {
     en: "Email",
     ru: "Email",
-    href: "mailto:it.atelier25@gmail.com",
+    href: {
+      en: "mailto:it.atelier25@gmail.com",
+      ru: "mailto:it.atelier25@gmail.com",
+    },
     icon: <Mail className="w-5 h-5" />,
   },
 ];
@@ -156,3 +171,27 @@ const Index = () => {
 };
 
 export default Index;
+/*i hope this last for today*/
+/*please git see this changes*/
+/*omgomgomgomg*/
+/*i hope this last for today*/
+/*please git see this changes*/
+/*omgomgomgomg*/
+/*i hope this last for today*/
+/*please git see this changes*/
+/*omgomgomgomg*/
+/*i hope this last for today*/
+/*please git see this changes*/
+/*omgomgomgomg*/
+/*i hope this last for today*/
+/*please git see this changes*/
+/*omgomgomgomg*/
+/*i hope this last for today*/
+/*please git see this changes*/
+/*omgomgomgomg*/
+/*i hope this last for today*/
+/*please git see this changes*/
+/*omgomgomgomg*/
+/*i hope this last for today*/
+/*please git see this changes*/
+/*omgomgomgomg*/
