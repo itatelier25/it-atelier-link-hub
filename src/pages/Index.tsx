@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Mail, ExternalLink } from "lucide-react";
+import { Mail, ExternalLink, Send, MessageCircle, Instagram, Facebook } from "lucide-react";
 import itaLogo from "@/assets/ita-logo.png";
 
 type Language = "en" | "ru";
@@ -23,21 +23,25 @@ const links: LinkItem[] = [
     en: "Telegram",
     ru: "Telegram",
     href: "https://t.me/@It_Atelier_en",
+    icon: <Send className="w-5 h-5" />,
   },
   {
     en: "WhatsApp",
     ru: "WhatsApp",
     href: "https://wa.me/85566504612",
+    icon: <MessageCircle className="w-5 h-5" />,
   },
   {
     en: "Instagram",
     ru: "Instagram",
     href: "https://instagram.com/it_._atelier",
+    icon: <Instagram className="w-5 h-5" />,
   },
   {
     en: "Facebook",
     ru: "Facebook",
     href: "https://www.facebook.com/share/1GLXyLxbak/",
+    icon: <Facebook className="w-5 h-5" />,
   },
   {
     en: "Email",
