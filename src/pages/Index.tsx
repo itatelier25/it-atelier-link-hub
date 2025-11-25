@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Mail, ExternalLink } from "lucide-react";
+import itaLogo from "@/assets/ita-logo.png";
 
 type Language = "en" | "ru";
 
@@ -93,16 +94,16 @@ const Index = () => {
         <div className="w-full max-w-md space-y-8">
           {/* Logo */}
           <div className="flex justify-center">
-            <div className="w-32 h-32 md:w-40 md:h-40 flex items-center justify-center bg-card rounded-2xl border-2 border-primary/20 shadow-lg">
-              <span className="text-4xl md:text-5xl font-bold bg-gradient-to-br from-primary via-secondary to-accent bg-clip-text text-transparent">
-                IT
-              </span>
-            </div>
+            <img 
+              src={itaLogo} 
+              alt="IT-Atelier Logo" 
+              className="w-48 h-48 md:w-56 md:h-56 object-contain"
+            />
           </div>
 
           {/* Title */}
           <div className="text-center space-y-3">
-            <h1 className="text-3xl md:text-4xl font-bold text-foreground">
+            <h1 className="text-3xl md:text-4xl font-bold text-title">
               {content[lang].title}
             </h1>
             <p className="text-muted-foreground text-base md:text-lg max-w-sm mx-auto">
