@@ -8,7 +8,9 @@ type Language = "en" | "ru";
 interface LinkItem {
   en: string;
   ru: string;
-  href: string;
+  href?: string;
+  hrefEn?: string;
+  hrefRu?: string;
   icon?: React.ReactNode;
 }
 
@@ -22,7 +24,8 @@ const links: LinkItem[] = [
   {
     en: "Telegram",
     ru: "Telegram",
-    href: "https://t.me/@It_Atelier_en",
+    hrefEn: "https://t.me/It_Atelier_en",
+    hrefRu: "https://t.me/It_Atelier",
     icon: <Send className="w-5 h-5" />,
   },
   {
@@ -125,7 +128,12 @@ const Index = () => {
                 size="lg"
               >
                 <a
-                  href={link.href}
+                  href={
+                    link.hrefRu && link.hrefEn
+                      ? (lang === "ru" ? link.hrefRu : link.hrefEn)
+                      : link.href
+                  }
+
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2"
