@@ -26,6 +26,15 @@ const links: LinkItem[] = [
     icon: <ExternalLink className="w-5 h-5" />,
   },
   {
+    en: "Our AI-agent in TG",
+    ru: "Наш ИИ-Ассистент в ТГ",
+    href: {
+      en: "https://t.me/it_atelier_bot",
+      ru: "https://t.me/it_atelier_bot",
+    },
+    icon: <Send className="w-5 h-5" />,
+  },
+  {
     en: "Telegram",
     ru: "Telegram",
     href: {
